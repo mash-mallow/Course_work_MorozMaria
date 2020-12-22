@@ -1,0 +1,60 @@
+﻿@using Web.Models
+@model IEnumerable<PositionViewModel>
+@{
+    ViewBag.Title = "Positions";
+}
+
+<h2>Positions in company</h2>
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            N
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Hours
+        </th>
+        <th>
+            Salary
+        </th>
+        <th>
+            Best employee
+        </th>
+
+    </tr>
+
+    @foreach (PositionViewModel item in Model)
+    {
+        <tr>
+            <td>
+                @item.PositionId
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Hours
+            </td>
+            <td>
+                @item.Salary
+            </td>
+            <td>
+                @Html.ActionLink("View best employee", "BestEmployee", new { id = item.PositionId })
+            </td>
+        </tr>
+
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Get top 5 positions", "Top5Positions", "Position")
+</div>
+
+<div>
+    @Html.ActionLink("Update position", "UpdatePosition", "Position")
+</div>

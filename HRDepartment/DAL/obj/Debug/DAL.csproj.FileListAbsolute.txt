@@ -1,0 +1,43 @@
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\DB\HRDatabase.mdf
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\DB\HRDatabase_log.ldf
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\obj\Debug\DAL.Migrations.createscheme.resources
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\obj\Debug\DAL.dll
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\obj\Debug\DAL.pdb
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\DAL.dll.config
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\DAL.dll
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\bin\Debug\DAL.pdb
+C:\Users\Alisa\Desktop\lessons\5 sem\trpz_c#\HRDepartment\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\DB\HRDatabase.mdf
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\DB\HRDatabase_log.ldf
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\DAL.dll.config
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\DAL.dll
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\DAL.pdb
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.Migrations.createscheme.resources
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.dll
+C:\Users\Мурыся\Desktop\HRDepartment\DAL\obj\Debug\DAL.pdb
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\DAL.dll.config
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\DAL.dll
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\DAL.pdb
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\obj\Debug\DAL.dll
+C:\Users\Мурыся\Desktop\KPI\HRDepartment\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,24 @@
+﻿@using Web.Models
+@model DepartmentViewModel
+@{
+    ViewBag.Title = "AddDepartment";
+}
+
+<h2>Add Department</h2>
+<br />
+
+@using (Html.BeginForm())
+{
+
+    <br />
+
+    <p>Name of department: @Html.TextBoxFor(x => x.Name)</p>
+    <p>Description of department: @Html.TextBoxFor(x => x.Description)</p>
+
+    <br />
+    <input type="submit" value="Add" />
+}
+<br />
+<h4>
+    @Html.ActionLink("Back to Departments", "Index", "Department")
+</h4>

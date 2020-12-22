@@ -1,0 +1,29 @@
+﻿@using Web.Models
+@model EmployeeViewModel
+
+@{
+    ViewBag.Title = "UpdateEmployee";
+}
+
+<h2>Update Employee</h2>
+
+@using (Html.BeginForm())
+{
+
+    <br />
+    <p>Enter id of the employee you want to update:</p>
+    <p>@Html.TextBoxFor(x => x.EmployeeId)</p>
+    <br />
+    <p>Your name: @Html.TextBoxFor(x => x.Name)</p>
+    <p>Your surname: @Html.TextBoxFor(x => x.Surname)</p>
+    <p>Your experience: @Html.TextBoxFor(x => x.Experience)</p>
+    <p>Your payment Number: @Html.TextBoxFor(x => x.PaymentNum)</p>
+    <p>Your department id: @Html.TextBoxFor(x => x.DepartmentId)</p>
+    <p>Your position id: @Html.TextBoxFor(x => x.PositionId)</p>
+    <br />
+    <input type="submit" value="Update" />
+}
+<br />
+<h4>
+    @Html.ActionLink("Back to employees", "Index", "Home")
+</h4>

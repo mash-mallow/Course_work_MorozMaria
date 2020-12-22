@@ -1,0 +1,50 @@
+﻿@using Web.Models
+@model IEnumerable<PositionViewModel>
+@{
+    ViewBag.Title = "Top5";
+}
+
+<h2>Top 5 positons in company</h2>
+<br/>
+
+<table class="table">
+    <tr>
+        <th>
+            N
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Hours
+        </th>
+        <th>
+            Salary
+        </th>
+
+    </tr>
+
+    @foreach (PositionViewModel item in Model)
+    {
+        <tr>
+            <td>
+                @item.PositionId
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Hours
+            </td>
+            <td>
+                @item.Salary
+            </td>
+        </tr>
+
+    }
+
+</table>
+<br />
+<h4>
+    @Html.ActionLink("Back to all positions", "Index", "Position")
+</h4>

@@ -1,0 +1,67 @@
+﻿@using Web.Models
+@model IEnumerable<EmployeeViewModel>
+@{
+    ViewBag.Title = "Sorted by surname";
+}
+
+<h2>Employees sorted by surname</h2>
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            N
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Surname
+        </th>
+        <th>
+            Experience (years)
+        </th>
+        <th>
+            Payment Number
+        </th>
+        <th>
+            Department
+        </th>
+        <th>
+            Position
+        </th>
+    </tr>
+
+
+    @foreach (EmployeeViewModel item in Model)
+    {
+        <tr>
+            <td>
+                @item.EmployeeId
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Surname
+            </td>
+            <td>
+                @item.Experience
+            </td>
+            <td>
+                @item.PaymentNum
+            </td>
+            <td>
+                @item.DepartmentId
+            </td>
+            <td>
+                @item.PositionId
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+<h4>
+    @Html.ActionLink("Back to employees list", "Index", "Home")
+</h4>

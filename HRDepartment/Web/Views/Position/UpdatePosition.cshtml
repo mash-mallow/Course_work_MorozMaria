@@ -1,0 +1,25 @@
+﻿@using Web.Models
+@model PositionViewModel
+@{
+    ViewBag.Title = "UpdatePosition";
+}
+
+<h2>Update position</h2>
+<br />
+
+@using (Html.BeginForm())
+{
+    <br />
+    <p>Enter id of the position you want to update:</p>
+    <p>@Html.TextBoxFor(x => x.PositionId)</p>
+    <br />
+    <p>Name of position: @Html.TextBoxFor(x => x.Name)</p>
+    <p>Hours: @Html.TextBoxFor(x => x.Hours)</p>
+    <p>Salary: @Html.TextBoxFor(x => x.Salary)</p>
+    <br />
+    <input type="submit" value="Update" />
+}
+<br />
+<h4>
+    @Html.ActionLink("Back to positions", "Index", "Position")
+</h4>

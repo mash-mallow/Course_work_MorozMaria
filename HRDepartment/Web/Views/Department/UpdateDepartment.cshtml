@@ -1,0 +1,24 @@
+﻿@using Web.Models
+@model DepartmentViewModel
+@{
+    ViewBag.Title = "UpdateDepartment";
+}
+
+<h2>Update Department</h2>
+<br />
+
+@using (Html.BeginForm())
+{
+    <br />
+    <p>Enter id of the department you want to update:</p>
+    <p>@Html.TextBoxFor(x => x.DepartmentId)</p>
+    <br />
+    <p>Name of department: @Html.TextBoxFor(x => x.Name)</p>
+    <p>Description of department: @Html.TextBoxFor(x => x.Description)</p>
+    <br />
+    <input type="submit" value="Update" />
+}
+<br />
+<h4>
+    @Html.ActionLink("Back to Departments", "Index", "Department")
+</h4>
